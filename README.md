@@ -4,6 +4,11 @@
 
 http://sketchcn.com/sketch-chinese-user-manual.html
 
+## review progressing
+
+- chapter 1:
+
+
 ## how to build it
 
 only one operation
