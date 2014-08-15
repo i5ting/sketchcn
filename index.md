@@ -3,6 +3,10 @@
 		display:none;
 	}
 	
+	.zh {
+		display:none;
+	}
+	
 	.review {
 		display:block;
 		border: 1px solid lightblue;

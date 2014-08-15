@@ -3,6 +3,9 @@
 使用tocmd_config命令生成sketchcn翻译的文档
 
 http://sketchcn.com/sketch-chinese-user-manual.html
+http://bohemiancoding.com/sketch/support/documentation/
+
+
 
 ## review progressing
 
