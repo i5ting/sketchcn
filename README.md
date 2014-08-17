@@ -1,10 +1,9 @@
 # sketchcn
 
-使用tocmd_config命令生成sketchcn翻译的文档
+使用[trans.gem](https://github.com/i5ting/trans-cli)命令生成sketchcn翻译的文档
 
 http://sketchcn.com/sketch-chinese-user-manual.html
 http://bohemiancoding.com/sketch/support/documentation/
-
 
 
 ## review progressing
@@ -33,6 +32,8 @@ file:///Users/shiren1118/Workspace/github/sketchcn/preview/index.html
 
 ## 版本历史
 
+- v0.2.0
+	- 使用trans生成，基本实现可用
 - v0.1.0 初始化版本 
 
 
