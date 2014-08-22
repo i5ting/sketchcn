@@ -2,15 +2,11 @@
 	    <html>
 	      <head>
 				  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	        <title>index</title>
+	        <title>泰然逸品index</title>
 					
 				<link href="toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" media="all" rel="stylesheet" type="text/css"/>
 				<link href="toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" media="all" rel="stylesheet" type="text/css"/>
-				<link href="toc/css/zTreeStyle/zTreeStyle.css" media="all" rel="stylesheet" type="text/css"/>
-    		<link rel="stylesheet" type="text/css" href="toc/css/normalize.css" />
-    		<link rel="stylesheet" type="text/css" href="toc/css/demo.css" />
-    		<link rel="stylesheet" type="text/css" href="toc/css/icons.css" />
-    		<link rel="stylesheet" type="text/css" href="toc/css/component.css" />
+    		<link rel="stylesheet" type="text/css" href="toc/css/trans.min.css" />
 			
 	      </head>
 	      <body>
@@ -21,7 +17,7 @@
     				<!-- mp-menu -->
     				<nav id="mp-menu" class="mp-menu">
     					<div class="mp-level">
-    						<h2 class="icon icon-world" style='font-size: 34;color:white;'>泰然译品</h2>
+    						<h2 class="icon icon-world" id='mp_title' style='font-size: 34;color:white;'>泰然译品</h2>
     						<ul>
     						</ul>
 							
@@ -105,21 +101,14 @@
 .highlight .vi { color: #bb60d5 } /* Name.Variable.Instance */
 .highlight .il { color: #40a070 } /* Literal.Number.Integer.Long */</style>
 <style>
+ 
     .en {
-        display:none;
-    }
-    
-    .zh {
-        display:none;
-    }
-    
-    .review {
         display:block;
         border: 1px solid lightblue;
         padding:25px;
     }
     
-    .ok {
+    .zh {
         display:block;
         border: 1px solid lightgreen;
         padding:5px;
@@ -138,14 +127,25 @@
 
 <h1>介绍（Introduction）</h1>
 
-<p>Sketch 是一款适用于所有设计师的矢量绘图应用。矢量绘图也是目前进行网页，图标以及界面设计的最好方式。但除了矢量编辑的功能之外，我们同样添加了一些基本的位图工具，比如模糊和色彩校正。</p>
+<script>
+function kezhi(){
+    
+    alert('kezhi');
+}
+</script>
 
-<p>我们尽力让 Sketch 容易理解并上手简单，有经验的设计师花上几个小时便能将自己的设计技巧在Sketch中自如运用。对于绝大多数的数字产品设计，Sketch 都能替代 Adobe Photoshop，Illustrator 和 Fireworks。</p>
+<p><button onclick='kezhi()'>kz</button></p>
 
 <div class='en'>
 Sketch is a vector drawing app intended for designers of all sorts. Vector-based drawing is by far the the best way to design websites, icons or interfaces. On top of this vector editing we have added support for basic bitmap styles, such as blur and color corrections.
 
 We’ve made Sketch both powerful and easy to understand. Experienced designers can easily transfer their existing skills in a matter of hours, and replace Adobe Photoshop, Illustrator or Fireworks for most digital design tasks.
+</div>
+
+<div class='zh'>
+Sketch 是一款适用于所有设计师的矢量绘图应用。矢量绘图也是目前进行网页，图标以及界面设计的最好方式。但除了矢量编辑的功能之外，我们同样添加了一些基本的位图工具，比如模糊和色彩校正。
+ 
+我们尽力让 Sketch 容易理解并上手简单，有经验的设计师花上几个小时便能将自己的设计技巧在Sketch中自如运用。对于绝大多数的数字产品设计，Sketch 都能替代 Adobe Photoshop，Illustrator 和 Fireworks。
 </div>
 
 <h2>为什么选择 Sketch（Why use Sketch）</h2>
@@ -1267,33 +1267,11 @@ There's also a PDF version of the manual available. You can [download it here](h
           
 	      </body>
 	    </html>
-			<script type="text/javascript" src="toc/js/jquery.js"></script>
-			<script type="text/javascript" src="toc/js/jquery.ztree.all-3.5.min.js"></script>
-			<script type="text/javascript" src="toc/js/ztree_toc.js"></script>
-      <script type="text/javascript" src="toc/toc_conf.js"></script>
-  		<script src="toc/js/classie.js"></script>
-  		<script src="toc/js/mlpushmenu.js"></script>
-  		<script src="toc/js/modernizr.custom.js"></script>
-      <script src="toc/js/jquery.transtool.js"></script>
 			
-			<SCRIPT type="text/javascript" >
-			<!--
-			$(document).ready(function(){
-          var css_conf = eval(markdown_panel_style);
-          $('#readme').css(css_conf)
-          
-          var conf = eval(jquery_ztree_toc_opts);
-  				$('#tree').ztree_toc(conf);
-          
-    			new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'normal-button' ), {
-    				type : 'cover'
-    			} );
-          
-					var transtool_opts_conf = eval(transtool_opts);
-					$.transtool(transtool_opts_conf);
-				
-			});
-			//-->
-			</SCRIPT>
-	  
+			<script src="toc/lib/jquery.js"></script>
+			<script src="toc/lib/jquery.ztree.all-3.5.min.js"></script>
+			<script src="toc/lib/modernizr.custom.js"></script>
+      
+			<script type="text/javascript" src="toc/js/trans.min.js"></script>
+      <script type="text/javascript" src="toc_conf.js"></script>	  
 	  

@@ -1,19 +1,12 @@
 <style>
+ 
 	.en {
-		display:none;
-	}
-	
-	.zh {
-		display:none;
-	}
-	
-	.review {
 		display:block;
 		border: 1px solid lightblue;
 		padding:25px;
 	}
 	
-	.ok {
+	.zh {
 		display:block;
 		border: 1px solid lightgreen;
 		padding:5px;
@@ -33,15 +26,24 @@
  
  
 # 介绍（Introduction）
-
-Sketch 是一款适用于所有设计师的矢量绘图应用。矢量绘图也是目前进行网页，图标以及界面设计的最好方式。但除了矢量编辑的功能之外，我们同样添加了一些基本的位图工具，比如模糊和色彩校正。
- 
-我们尽力让 Sketch 容易理解并上手简单，有经验的设计师花上几个小时便能将自己的设计技巧在Sketch中自如运用。对于绝大多数的数字产品设计，Sketch 都能替代 Adobe Photoshop，Illustrator 和 Fireworks。
+<script>
+function kezhi(){
+	
+	alert('kezhi');
+}
+</script>
+<button onclick='kezhi()'>kz</button>
 
 <div class='en'>
 Sketch is a vector drawing app intended for designers of all sorts. Vector-based drawing is by far the the best way to design websites, icons or interfaces. On top of this vector editing we have added support for basic bitmap styles, such as blur and color corrections.
 
 We’ve made Sketch both powerful and easy to understand. Experienced designers can easily transfer their existing skills in a matter of hours, and replace Adobe Photoshop, Illustrator or Fireworks for most digital design tasks.
+</div>
+
+<div class='zh'>
+Sketch 是一款适用于所有设计师的矢量绘图应用。矢量绘图也是目前进行网页，图标以及界面设计的最好方式。但除了矢量编辑的功能之外，我们同样添加了一些基本的位图工具，比如模糊和色彩校正。
+ 
+我们尽力让 Sketch 容易理解并上手简单，有经验的设计师花上几个小时便能将自己的设计技巧在Sketch中自如运用。对于绝大多数的数字产品设计，Sketch 都能替代 Adobe Photoshop，Illustrator 和 Fireworks。
 </div>
 
 
